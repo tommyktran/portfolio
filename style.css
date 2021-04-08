@@ -1,0 +1,137 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+
+    font-family:'Fira Sans';
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url(Fira_Sans/FiraSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Fira Sans Light';
+    src: url(Fira_Sans/FiraSans-Light.ttf);
+}
+@font-face {
+    font-family: 'Fira Sans Semibold';
+    src: url(Fira_Sans/FiraSans-SemiBold.ttf);
+    
+}
+@font-face {
+    font-family: 'Fira Sans Bold';
+    src: url(Fira_Sans/FiraSans-Bold.ttf);
+    
+}
+body {
+    padding: 15px 50px;
+    background-image: url(Classic-45-degree-seamless-pattern-for-website-background.jpg);
+}
+
+main {
+    max-width: 850px;
+}
+
+h1 {
+    margin-top: 45px;
+    font-size: 55px;
+    font-family: 'Fira Sans';
+}
+h2 {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+p {
+    font-size: 25px;
+    margin: 15px 0;
+    line-height: 1.35;
+    font-family: 'Fira Sans Light';
+}
+
+.emphasis {
+    color: #FF9594;
+}
+
+#project-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1150px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    padding: 20px;
+    margin: 10px;
+    background-color:#DDD;
+    width: 350px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-bottom: 50px;
+}
+.project-title {
+    align-self: flex-start;
+    margin-bottom: none;
+    font-size: 33px;
+}
+.project-description {
+    font-size: 19px;
+    margin-top: 20px;
+}
+.project-image {
+    width: 350px;
+    height: 218px;
+}
+.project-icons {
+    position: absolute;
+    bottom: 13px;
+    display: flex;
+    flex-direction: row-reverse;
+    right: 13px;
+}
+.project-icons img {
+    margin: 0 7px;
+}
+
+@media (max-width: 1265px) {
+    #project-div {
+        width: 100%;
+    }
+}
+@media (max-width: 608px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 524px) {
+    h1 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 19px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 379px) {
+    .project-image {
+        width: 100%;
+    }
+}
