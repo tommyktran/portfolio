@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tommy Tran</title>
     <link rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="lightbox2-2.11.3/dist/css/lightbox.min.css" />
 
 </head>
 <body>
     <main>
         <h1>Hi! I'm Tommy Tran.</h1>
-        <p>I'm an aspiring coder specializing in web development. Although I am most familiar working with vanilla <span class="emphasis">HTML, CSS, and JS,</span> I have also worked with <span class="emphasis">Node.js</span> and <span class="emphasis">C#</span>.</p>
+        <p>I'm an aspiring coder specializing in web development and design. Although I am most familiar working with vanilla <span class="emphasis">HTML, CSS, and JS,</span> I have also worked with <span class="emphasis">Node.js</span> and <span class="emphasis">C#</span>.</p>
+        <p>On the design side of things, I have experience with <span class="emphasis">designing and prototyping in Figma</span>, as well as using <span class="emphasis">Affinity Publisher</span>.</p>
         <p>My other interests include chess and creative writing. I also really like to make games from HTML/CSS/JS.</p>
         <p>I'm interested in technology because I enjoy solving problems and coming up with solutions using logical thinking or out-of-the-box creativity. Besides that, I also enjoy learning new skills, which programmers are always doing.</p>
         <p>I have graduated from Code Louisville's Front End course as well as the Javascript course. Much of my coding knowledge was learned in Code Louisville or on my own, while I was making a personal project.</p>
@@ -46,10 +48,47 @@
             </div>
         </div>
     </div>        
-    <h3 style="font-size: 30px; text-align:left; width:100%;">You can also take a look at my <a href="./design.html">design stuff!</a></h1>
-
+    <h2 style="margin-top: 75px;">And here are the things I've designed:</h2>
+    <p>For each project, click the project thumbnail to view more screenshots.</p>
+    <div id="project-div">
+        <div class="project-card">
+            <h2 class="project-title">NaNoWriMo</h2>
+            <a href="design/NaNoWriMo/Desktop - 1.png" data-lightbox="nanowrimo"><img class="project-image" style="object-fit: cover; object-position: 0% 0%" src="design/NaNoWriMo/Desktop - 1.png"></a>
+            <p class="project-description">A personal practice project, using Figma to redesign the <a href="https://nanowrimo.org/">nanowrimo.org</a> website.</p>
+            <div class="images" style="display:none;">
+                <a href="design/NaNoWriMo/Desktop - 2.png" data-lightbox="nanowrimo"><img src="design/NaNoWriMo/Desktop - 2.png"></a>
+                <a href="design/NaNoWriMo/iPhone 11 Pro Max - 1.png" data-lightbox="nanowrimo" data-title="mobile view"><img src="design/NaNoWriMo/iPhone 11 Pro Max - 1.png" data-lightbox="nanowrimo"></a>
+            </div>
+        </div>
+        <div class="project-card">
+            <h2 class="project-title">Voter Portal</h2>
+            <a href="design/Voter Portal/Landing Page.png" data-lightbox="voter"><img class="project-image" style="object-fit: cover; object-position: 0% 0%" src="design/Voter Portal/Landing Page.png"></a>
+            <p class="project-description">Another project, using Figma to design and prototype a voter portal website. The link below will take you to the Figma prototype for this design.</p>
+            <div class="images" style="display:none;">
+                <a href="design/Voter Portal/Main Page.png" data-lightbox="voter"><img src="design/Voter Portal/Main Page.png"></a>
+                <a href="design/Voter Portal/View Voting History.png" data-lightbox="voter"><img src="design/Voter Portal/View Voting History.png"></a>
+            </div>
+            <div class="project-icons">
+                <a href="https://www.figma.com/proto/giKcK6UZzu28iVJOILcKju/Voter-Portal?node-id=152%3A286&scaling=min-zoom&page-id=87%3A41&starting-point-node-id=113%3A41&show-proto-sidebar=1"><img src="link-32.png"></a>
+            </div>
+        </div>
+        <div class="project-card">
+            <h2 class="project-title">See the Process</h2>
+            <a href="design/See the Process.png" data-lightbox="see-the-process"><img class="project-image" style="object-fit: cover; object-position: 0% 0%" src="design/See the Process.png"></a>
+            <p class="project-description">A mock design for a blog, coded with HTML and CSS. Click the links below to view the full design.</p>
+            <div class="project-icons">
+                <a href="https://github.com/tommyktran/see-the-process"><img src="GitHub-Mark-32px.png"></a>
+                <a href="https://tommyktran.github.io/see-the-process/"><img src="link-32.png"></a>
+            </div>
+        </div>
+        <div class="project-card">
+            <h2 class="project-title">Magazine Cover</h2>
+            <a href="design/cover.png" data-lightbox="cover"><img class="project-image" style="object-fit: cover; object-position: 0% 0%" src="design/cover.png"></a>
+            <p class="project-description">A design for a literary magazine cover, created using Affinity Publisher.</p>
+        </div>
+    </div>
     <h2 style="margin-top: 35px;">Contact:</h2>
     <p>Email: tommyktran@gmail.com</p>
-    
+    <script src="lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
